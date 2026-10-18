@@ -55,8 +55,9 @@ Ces résultats proviennent d'un jeu de données synthétique. Le jeu de test aya
 Créer et activer un environnement virtuel Python, puis installer les dépendances :
 
 ```bash
-python -m pip install torch numpy pandas scikit-learn matplotlib fastapi uvicorn joblib
+python -m pip install -r requirements.txt
 ```
+le fichier `requirements.txt` contient la liste des dépendances et leurs versions.
 
 Générer les données :
 
